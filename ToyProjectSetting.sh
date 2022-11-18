@@ -11,7 +11,7 @@ nvm install --lts
 node -e "console.log('Running Node.js ' + process.version)"
 echo "Node version check"
 
-npm install yarn
+npm install yarn -g
 echo "yarn install succ"
 
 sudo yum install git -y
@@ -27,4 +27,4 @@ sudo systemctl enable mariadb
 echo "mariadb infinite"
 
 sudo systemctl start mariadb
-ehco "mariadb start"
+echo "mariadb start"
